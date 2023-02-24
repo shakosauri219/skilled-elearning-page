@@ -1,0 +1,316 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1rem;
+    background: #f5f2f2;
+}
+
+/* mobile */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 343px;
+    padding: 1rem;
+}
+
+.logo {
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    color: rgba(19, 24, 63, 1);
+}
+
+.top-button {
+    color: #ffffff;
+    background-color: rgba(19, 24, 63, 1);
+    padding: 9px 24px;
+    border: none;
+    border-radius: 28px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.top-button:hover {
+    background: rgba(102, 108, 163, 1);
+    cursor: pointer;
+}
+
+.intro-text {
+    margin-top: 38px;
+}
+
+.intro-h1 {
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0px 16px 28px 16px;
+    color: rgba(19, 24, 63, 1);
+}
+
+.intro-p {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0px 16px 24px 16px;
+    color: rgba(131, 134, 154, 1);
+}
+
+.intro-button {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    width: 167px;
+    height: 56px;
+    color: #ffffff;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border: none;
+    border-radius: 31.5px;
+    margin:0px 16px 16px 16px;
+}
+
+.intro-button:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.girl-mobile {
+    width: 100%;
+    height: 100%;
+}
+
+.girl-tablet {
+    display: none;
+}
+
+.girl-desktop {
+    display: none;
+}
+
+.courses-intro {
+    margin: 0px 16px 40px 16px;
+    padding: 24px 29px 32px 28px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#courses-intro-h1 {
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.card {
+    padding: 56px 29px 32px 28px;
+    margin: 0px 16px;
+    background:#FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course img {
+    width: 56px;
+    height: 56px;
+    transform: translate(44px, 50%);
+}
+
+.course-h1 {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(19, 24, 63, 1);
+}
+
+.course-info {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(131, 134, 154, 1);
+    margin: 16px 0px 24px 0px;
+}
+
+.course-button {
+    border: none;
+    width: 104px;
+    height: 28px;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:rgba(247, 71, 128, 1);
+    background-color: #ffffff;
+    margin-top: 24px;
+}
+
+.course-button:hover {
+    cursor: pointer;
+    color: rgba(255, 167, 195, 1);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 343px;
+    background-color:rgba(19, 24, 63, 1);
+    width: 100%;
+    height: 120px;
+    margin-top: 80px;
+}
+
+.logo2 {
+    margin-left: 16px;
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.bottom-button {
+    color:#ffffff ;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    padding: 9px 24px;
+    border: none;
+    border-radius: 28px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-right: 16px;
+}
+
+.bottom-button:hover {
+    cursor: pointer;
+    background: rgba(255, 167, 195, 1);
+}
+
+
+/* tablet */
+
+@media screen and (min-width:768px) {
+    body {
+        background-image: url(./images/image-hero-tablet.png);
+        background-repeat: no-repeat;
+        background-size: 640px 640px;
+        background-position: top -50px right -280px; 
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .girl-mobile {
+        display: none;
+    }
+
+    .intro-text {
+        width: 60%;
+    }
+
+    .courses-container {
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .courses-intro {
+        margin-bottom: 0px;
+        margin-top: 56px;
+        padding: 56px 21px 139px 32px;
+        height: 259px;
+    }
+
+    .card {
+        padding: 56px 0px 32px 32px;
+        height: 259px;
+    }
+   
+
+}
+
+/* desktop */
+
+@media screen and (min-width:1440px) {
+    header {
+        padding: 24px 165px;
+    }
+
+    body {
+        background-image: url(./images/image-hero-desktop.png);
+        background-repeat: no-repeat;
+        background-size: 991px 936px;
+        background-position: top -140px right -350px;
+    }
+
+    main {
+        padding: 0px 165px;
+    }
+
+    .intro-text {
+        width: 40%;
+        margin-top: 165px;
+    }
+
+    .courses-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .courses-intro {
+        height: 322px;
+        padding: 64px 32px 130px 32px;
+    }
+
+
+    .card {
+        height: 322px;
+    }
+}
